@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "patch_version": 2,
+  "module": "snap/modules/org-esa-snap-snap-rcp.jar",
+  "original_sha256": "55662fd780ad09e0b7756422c3799379d1d783e5af27d109e24c5a958f45dc2d",
+  "patched_sha256": "e8c62196f85e1421d366dc47cc562f5f4916257cd77a6dae67b3ea2fa4bd7213",
+  "seadas_version_label": "12.0.0",
+  "rcp_implementation_version": "14.0.1",
+  "locally_validated_original": true,
+  "candidate_only": false,
+  "changed_entries": [
+    "org/esa/snap/rcp/colormanip/ColorManipulationFormImpl.class"
+  ],
+  "source_tool_sha256": {
+    "PatchColorManager.java": "0906abb7acced79c20096a774ad4efa5eebf60eb1f417f0a635a68c326fc7ad0",
+    "PatchInitializationOrder.java": "d54f83e68240c5129acbe5e451e65aa82c91386b5a3001c5b1456a30ad48f59f"
+  },
+  "GUI_validation": "For this known source hash, the patch matches the locally GUI-validated artifact."
+}
